@@ -1,0 +1,59 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    background-color:beige;
+    width: 400px;
+    border-radius: 5px;
+    padding-top: 30px;
+    height: 100%;
+     gap: 15px;
+   
+}
+.box{
+   height: 50px;
+   padding-top: 9px;
+   text-align: center;
+   align-content: center;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 50px;
+   
+
+}
+.box1{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.box2,.box3,.box4{
+    background-color:rgb(214, 168, 82);
+    border-radius: 5px;
+    color: white;
+    
+   
+}
+.box5,.box6,.box7,.box9,.box10,.box11,.box13,.box14,.box15,.box17,.box18{
+    background-color:lightgray;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.box8,.box16,.box12{
+    background-color:rgb(214, 168, 82);
+    border-radius: 5px;
+    color: white;
+}
+.box19{
+    background-color:green;
+    border-radius: 5px;
+    color: white;
+}
+.display{
+    grid-column: 1/5;
+    height: 75px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+input{
+    height: 75px;
+    width: 350px;
+}
